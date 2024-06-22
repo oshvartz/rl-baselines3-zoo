@@ -5,6 +5,14 @@ from gymnasium.envs.registration import register
 
 from rl_zoo3.wrappers import MaskVelocityWrapper
 
+from .pick_and_place import MujocoFetchPickAndPlaceEnv
+
+register(
+        id="SimpleGripEnv-v1",
+        entry_point=MujocoFetchPickAndPlaceEnv,
+        max_episode_steps=50,
+    )
+
 try:
     import pybullet_envs_gymnasium
 except ImportError:

@@ -1,0 +1,9 @@
+Sun Jun 16 13:46:45 2024
+WARNING: mju_openResource: unknown file 'low_cost_robot\scene.xml'
+
+Sun Jun 16 13:47:14 2024
+WARNING: mju_openResource: unknown file '.\low_cost_robot\scene.xml'
+
+Sun Jun 16 13:47:47 2024
+WARNING: mju_openResource: unknown file '/low_cost_robot/scene.xml'
+
